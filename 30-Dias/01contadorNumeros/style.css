@@ -1,0 +1,96 @@
+body {
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100dvh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+}
+
+.container {
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 16px;
+    text-align: center;
+    width: 320px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.25);
+}
+
+#numero {
+    font-size: 80px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    transition: color 0.2s ease;
+}
+
+.vermelho {
+    color: #ef4444;
+}
+
+.botoes {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+button {
+    flex: 1;
+    padding: 12px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background 0.2s;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+#mais {
+    background: #22c55e;
+    color: white;
+}
+
+#mais:hover {
+    background: #16a34a;
+}
+
+#menos {
+    background: #ef4444;
+    color: white;
+}
+
+#menos:hover {
+    background: #dc2626;
+}
+
+#reset {
+    background: #e2e8f0;
+}
+
+#reset:hover {
+    background: #cbd5f5;
+}
+.vermelho{
+    color: red;
+}
+
+#numero{
+    font-size: 4rem;
+}
