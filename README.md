@@ -21,7 +21,7 @@ A ideia é construir pequenos projetos diariamente para praticar lógica de prog
 
 | Dia | Projeto       | Descrição                                                        |
 | --- | ------------- | ---------------------------------------------------------------- |
-| 01  | Counter App   | Contador com incrementar, decrementar, reset e contador negativo |
+| 01-Counter App-Contador com incrementar, decrementar, reset e contador negativo |
 |<img width="1388" height="778" alt="image" src="https://github.com/user-attachments/assets/167ac888-257e-4c55-ac9a-e5cc64389e59" />|
 | 02  | Em construção | ...                                                              |
 | 03  | Em construção | ...                                                              |
