@@ -28,7 +28,20 @@ Funcionalidades:
 
 ## Dia 02 – Em construção
 
-Preview em breve.
+Aplicação de lista de tarefas desenvolvida com HTML, CSS e JavaScript, com foco em manipulação de DOM e persistência de dados.
+
+Funcionalidades:
+
+* Adicionar novas tarefas
+* Remover tarefas
+* Validação para evitar tarefas vazias
+* Salvamento automático no navegador (localStorage)
+* Persistência dos dados mesmo após recarregar a página
+* Input com foco automático para melhor experiência do usuário
+
+Preview
+
+<img width="1154" height="683" alt="image" src="https://github.com/user-attachments/assets/a125dfe4-7926-4cdb-86c2-d144b0b3e176" />
 
 ---
 
