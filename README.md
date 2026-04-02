@@ -26,7 +26,7 @@ Funcionalidades:
 
 ---
 
-## Dia 02 – Em construção
+## Dia 02 – To-Do List
 
 Aplicação de lista de tarefas desenvolvida com HTML, CSS e JavaScript, com foco em manipulação de DOM e persistência de dados.
 
