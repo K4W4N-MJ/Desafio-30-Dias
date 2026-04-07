@@ -45,9 +45,23 @@ Preview
 
 ---
 
-## Dia 03 – Em construção
+## Dia 03 – Calculadora Web
 
-Preview em breve.
+Aplicação de calculadora desenvolvida com HTML, CSS e JavaScript, com foco em programação orientada a objetos (POO), manipulação de DOM e interação com eventos de teclado.
+
+Funcionalidades:
+
+* Operações matemáticas básicas (adição, subtração, multiplicação e divisão)
+* Validação de divisão por zero com tratamento de erro
+* Suporte a números decimais
+* Função de porcentagem (%)
+* Botão de limpar (AC) e apagar último dígito (DEL)
+* Exibição dinâmica dos valores no display
+* Suporte completo ao teclado (números, operadores, Enter, Backspace, etc.)
+
+Preview
+
+<img width="988" height="720" alt="image" src="https://github.com/user-attachments/assets/86e8f713-5031-49b1-a497-d2a592297b44" />
 
 ---
 
