@@ -65,9 +65,22 @@ Preview
 
 ---
 
-## Dia 04 – Em construção
+## Dia 04 – Conversor de Temperatura
 
-Preview em breve.
+Funcionalidades:
+
+* Conversão entre:
+Celsius → Fahrenheit
+Fahrenheit → Celsius
+* Conversão rápida ao clicar no botão
+* Suporte à tecla Enter para converter
+* Validação de entrada (evita valores inválidos)
+* Interface moderna e responsiva
+* Resultado exibido com precisão (2 casas decimais)
+
+Preview 
+
+<img width="970" height="606" alt="image" src="https://github.com/user-attachments/assets/7c16a2bb-7f05-4bfa-8299-0d768a2bce54" />
 
 ---
 
