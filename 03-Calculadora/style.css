@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', 'Poppins', 'Arial', sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+}
+
+.calculator {
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 30px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    backdrop-filter: blur(10px);
+    transition: transform 0.3s ease;
+}
+
+
+
+.display {
+    background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+    padding: 30px 20px;
+    text-align: right;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.previous-operand {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 1.2rem;
+    min-height: 32px;
+    margin-bottom: 10px;
+}
+
+.current-operand {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1px;
+    background: #e2e8f0;
+    padding: 1px;
+}
+
+.btn {
+    border: none;
+    background: white;
+    padding: 25px 15px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-family: inherit;
+}
+
+.btn:hover {
+    transform: scale(0.98);
+}
+
+.btn:active {
+    transform: scale(0.95);
+}
+
+.number {
+    background: #ffffff;
+    color: #1e293b;
+}
+
+.number:hover {
+    background: #f8fafc;
+}
+
+.operator {
+    background: #f1f5f9;
+    color: #3b82f6;
+    font-size: 1.4rem;
+}
+
+.operator:hover {
+    background: #e2e8f0;
+    color: #2563eb;
+}
+
+.function {
+    background: #fef3c7;
+    color: #d97706;
+}
+
+.function:hover {
+    background: #fde68a;
+}
+
+.equals {
+    background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
+    color: white;
+    font-size: 1.4rem;
+}
+
+.equals:hover {
+    background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+}
+
+.zero {
+    grid-column: span 2;
+}
+
+/* Animações */
+@keyframes buttonPop {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.95);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.btn:active {
+    animation: buttonPop 0.1s ease;
+}
+
+/* Responsividade */
+@media (max-width: 480px) {
+    .btn {
+        padding: 20px 15px;
+        font-size: 1rem;
+    }
+    
+    .current-operand {
+        font-size: 2rem;
+    }
+    
+    .previous-operand {
+        font-size: 1rem;
+    }
+}
