@@ -69,14 +69,14 @@ Preview
 
 Funcionalidades:
 
-* Conversão entre:
+Conversão entre:
 Celsius → Fahrenheit
 Fahrenheit → Celsius
-* Conversão rápida ao clicar no botão
-* Suporte à tecla Enter para converter
-* Validação de entrada (evita valores inválidos)
-* Interface moderna e responsiva
-* Resultado exibido com precisão (2 casas decimais)
+Conversão rápida ao clicar no botão
+Suporte à tecla Enter para converter
+Validação de entrada (evita valores inválidos)
+Interface moderna e responsiva
+Resultado exibido com precisão (2 casas decimais)
 
 Preview 
 
@@ -84,9 +84,23 @@ Preview
 
 ---
 
-## Dia 05 – Em construção
+## Dia 05 – Gerador de Número Aleatório
 
-Preview em breve.
+Funcionalidades:
+
+* Geração de número aleatório entre um intervalo definido
+* Campos de mínimo e máximo personalizáveis
+* Animação de "rolagem" antes de exibir o número final
+* Conversão rápida ao clicar no botão
+* Validação de entrada (evita valores inválidos e intervalo incorreto)
+* Histórico dos últimos 15 números gerados
+* Destaque visual no número mais recente do histórico
+* Botão para limpar o histórico
+
+
+Preview 
+
+<img width="1034" height="705" alt="image" src="https://github.com/user-attachments/assets/f5a4f1d2-1988-4cae-9dcd-995708918651" />
 
 ---
 
