@@ -1,0 +1,237 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #0f0f1a;
+  font-family: 'Segoe UI', system-ui, sans-serif;
+  padding: 2rem 1rem;
+}
+
+.container {
+  width: 100%;
+  max-width: 420px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: -0.5px;
+  margin-bottom: 0.4rem;
+}
+
+.subtitle {
+  font-size: 0.9rem;
+  color: #8888aa;
+  margin-bottom: 2rem;
+}
+
+.card {
+  background: #1a1a2e;
+  border-radius: 20px;
+  border: 1px solid #2a2a45;
+  padding: 2rem;
+}
+
+.inputs {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.input-group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.input-group label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #6666aa;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  background: #12122a;
+  border: 1px solid #2a2a45;
+  border-radius: 12px;
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-align: center;
+  outline: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.input-group input:focus {
+  border-color: #7c5cfc;
+  box-shadow: 0 0 0 3px rgba(124, 92, 252, 0.15);
+}
+
+.input-group input::-webkit-inner-spin-button,
+.input-group input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+.divider-line {
+  width: 24px;
+  height: 2px;
+  background: #2a2a45;
+  margin-top: 1.5rem;
+  flex-shrink: 0;
+}
+
+.result-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background: #12122a;
+  border-radius: 16px;
+  border: 1px solid #2a2a45;
+  min-height: 120px;
+  justify-content: center;
+}
+
+.result-label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #6666aa;
+}
+
+.result-number {
+  font-size: 4rem;
+  font-weight: 800;
+  color: #7c5cfc;
+  line-height: 1;
+  transition: transform 0.15s ease, opacity 0.15s ease;
+  letter-spacing: -2px;
+}
+
+.result-number.pop {
+  transform: scale(1.15);
+}
+
+.result-number.rolling {
+  opacity: 0.4;
+}
+
+.btn-generate {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  padding: 0.9rem 1.5rem;
+  background: linear-gradient(135deg, #7c5cfc, #5e3bea);
+  border: none;
+  border-radius: 12px;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.15s, box-shadow 0.15s, opacity 0.15s;
+  box-shadow: 0 4px 24px rgba(124, 92, 252, 0.35);
+  margin-bottom: 1.5rem;
+}
+
+.btn-generate:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 32px rgba(124, 92, 252, 0.45);
+}
+
+.btn-generate:active {
+  transform: scale(0.97);
+  box-shadow: 0 2px 12px rgba(124, 92, 252, 0.3);
+}
+
+.btn-generate:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.history-section {
+  border-top: 1px solid #2a2a45;
+  padding-top: 1.25rem;
+}
+
+.history-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.75rem;
+}
+
+.history-title {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #6666aa;
+}
+
+.btn-clear {
+  font-size: 0.75rem;
+  color: #6666aa;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 2px 6px;
+  border-radius: 6px;
+  transition: color 0.2s, background 0.2s;
+}
+
+.btn-clear:hover {
+  color: #ff6b6b;
+  background: rgba(255, 107, 107, 0.1);
+}
+
+.history-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  min-height: 36px;
+  align-items: center;
+}
+
+.empty-history {
+  font-size: 0.82rem;
+  color: #444466;
+  width: 100%;
+  text-align: center;
+}
+
+.history-tag {
+  padding: 4px 12px;
+  background: #12122a;
+  border: 1px solid #2a2a45;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #aaaacc;
+  transition: border-color 0.2s;
+}
+
+.history-tag.latest {
+  border-color: #7c5cfc;
+  color: #9d80ff;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gerador de Número Aleatório</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+    <h1>Gerador de Número Aleatório</h1>
+    <p class="subtitle">Defina o intervalo e gere seu número</p>
+
+    <div class="card">
+      <div class="inputs">
+        <div class="input-group">
+          <label for="min">Mínimo</label>
+          <input type="number" id="min" value="1" />
+        </div>
+        <div class="divider-line"></div>
+        <div class="input-group">
+          <label for="max">Máximo</label>
+          <input type="number" id="max" value="100" />
+        </div>
+      </div>
+
+      <div class="result-area">
+        <span class="result-label">Seu número</span>
+        <div class="result-number" id="result">?</div>
+      </div>
+
+      <button class="btn-generate" id="generateBtn">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="16 3 21 3 21 8"></polyline>
+          <line x1="4" y1="20" x2="21" y2="3"></line>
+          <polyline points="21 16 21 21 16 21"></polyline>
+          <line x1="15" y1="15" x2="21" y2="21"></line>
+        </svg>
+        Gerar número
+      </button>
+
+      <div class="history-section">
+        <div class="history-header">
+          <span class="history-title">Histórico</span>
+          <button class="btn-clear" id="clearBtn">Limpar</button>
+        </div>
+        <div class="history-list" id="historyList">
+          <span class="empty-history">Nenhum número gerado ainda</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
