@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gerador de Número Aleatório</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+   <div class="wrap">
+    <div class="card">
+
+      <p class="label-top">verificador par / ímpar</p>
+
+      <!-- número grande em destaque -->
+      <div class="big-num" id="bignum">—</div>
+
+      <!-- campo de entrada + botão -->
+      <div class="row">
+        <input type="number" id="entrada" placeholder="Digite um número inteiro..." />
+        <button class="btn" onclick="verificar()">Verificar</button>
+      </div>
+
+      <!-- resultado colorido -->
+      <div class="badge idle" id="badge">
+        <span>Aguardando...</span>
+      </div>
+
+      <!-- histórico aparece depois do primeiro uso -->
+      <div class="divider" id="div-hist"></div>
+      <div id="hist-wrap">
+        <p class="historico-titulo">histórico</p>
+        <div class="hist-lista" id="hist-lista"></div>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
