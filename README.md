@@ -104,9 +104,20 @@ Preview
 
 ---
 
-## Dia 06 – Em construção
+## Dia 06 – Verificador de número (par/ímpar)
 
-Preview em breve.
+Funcionalidades:
+
+* Limpar o histórico com um botão de apagar
+* Contar quantos pares e ímpares foram verificados (ex: "4 pares · 2 ímpares")
+* Bloquear números muito grandes (ex: acima de 1.000.000)
+* Mostrar mensagem diferente para o zero ("zero é par!")
+* Som diferente pra par e ímpar (Web Audio API)
+* Contador de sequência: "3 pares seguidos!"
+
+Preview 
+
+<img width="945" height="665" alt="image" src="https://github.com/user-attachments/assets/0d93a366-9b80-4fb0-a879-d948177d506a" />
 
 ---
 
