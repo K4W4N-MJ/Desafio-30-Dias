@@ -121,9 +121,22 @@ Preview
 
 ---
 
-## Dia 07 – Em construção
+## Dia 07 – Cronometro
 
-Preview em breve.
+
+Funcionalidades:
+
+* Iniciar o cronômetro
+* Pausar a contagem
+* Retomar do tempo pausado
+* Resetar para zero
+* Controle interno de execução (running)
+* Armazena tempo acumulado (elapsed)
+* Mantém consistência ao pausar e retomar
+
+Preview
+
+<img width="1021" height="641" alt="image" src="https://github.com/user-attachments/assets/18bc00b0-a604-4bed-90f2-20f95364c468" />
 
 ---
 
