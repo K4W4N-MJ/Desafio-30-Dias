@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gerador de Número Aleatório</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <main class="app">
+
+    <header>
+      <h1>⏱ Pro Stopwatch</h1>
+    </header>
+
+    <section class="display-section">
+      <div id="time">00:00:00.000</div>
+      <div id="status">Parado</div>
+    </section>
+
+    <section class="controls">
+      <button data-action="start">Start</button>
+      <button data-action="pause">Pause</button>
+      <button data-action="resume">Resume</button>
+      <button data-action="reset">Reset</button>
+      <button data-action="lap">Lap</button>
+    </section>
+
+    <section class="laps-section">
+      <h2>Voltas</h2>
+      <ul id="laps"></ul>
+    </section>
+
+  </main>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
