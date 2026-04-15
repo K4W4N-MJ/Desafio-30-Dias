@@ -123,7 +123,6 @@ Preview
 
 ## Dia 07 – Cronometro
 
-
 Funcionalidades:
 
 * Iniciar o cronômetro
@@ -140,9 +139,21 @@ Preview
 
 ---
 
-## Dia 08 – Em construção
+## Dia 08 – Relogio Digital
 
-Preview em breve.
+Funcionalidades:
+
+* Exibição do horário em tempo real (atualização a cada segundo)
+* Exibição da data completa no formato local (pt-BR)
+* Alternância entre formato 12h e 24h
+* Alternância de tema (Dark / Light mode)
+* Uso de HTML semântico com suporte a acessibilidade (<time> e atributos ARIA)
+* Layout responsivo adaptado para diferentes tamanhos de tela
+
+
+Preview
+
+<img width="900" height="581" alt="image" src="https://github.com/user-attachments/assets/ba3178f7-4720-4e3d-b959-d22edd570cec" />
 
 ---
 
